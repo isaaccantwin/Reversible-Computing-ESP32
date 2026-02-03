@@ -32,6 +32,7 @@ def energy_loss(infoLoss):
 def back(ina,inb,inc):
     global tatalEsave
     inbit=(ina,inb,inc)
+    print(inbit)
     oua=ina
     oub=inb
     ouc=toffoli(ina,inb,inc)
